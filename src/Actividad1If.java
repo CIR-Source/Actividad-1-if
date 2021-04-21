@@ -36,6 +36,8 @@ public class Actividad1If {
             System.out.println("Faltan " + difTiempo + " años");
         else if (difTiempo < 0)
             System.out.println("Han pasado " + difTiempoP + " años" );
+        else if (difTiempo == 0)
+            System.out.println("Es el año actual" );
         
     }
     
